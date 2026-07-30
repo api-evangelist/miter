@@ -1,8 +1,26 @@
 aid: miter
 name: Miter
-description: 'Miter is a company surfaced as a portfolio company of bessemer-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: vertical-software. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Miter is a Human Capital Management (HCM) platform purpose-built for construction contractors,
+  consolidating payroll, HR, benefits, field operations, and expense management into a single connected
+  system. Its construction payroll automates prevailing-wage, certified-payroll, and union compliance,
+  multi-state tax handling, and fully-burdened job-cost tracking in real time, while its HRIS covers
+  recruiting, benefits, performance, and learning. Field Operations adds time tracking, scheduling,
+  daily reports, production tracking, and safety, and Expense Management handles reimbursements,
+  per diems, and corporate cards. Miter connects to construction ERPs and accounting systems (Sage
+  Intacct, NetSuite, Acumatica, QuickBooks, Procore, Viewpoint, and more) through off-the-shelf
+  integrations or a custom REST API. Backed by Bessemer Venture Partners.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.miter.com/wp-content/uploads/2025/03/OpenGraph-Homepage.jpg
 url: https://raw.githubusercontent.com/api-evangelist/miter/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,16 +30,65 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Vertical Software
-apis: []
+- Construction
+- Payroll
+- Human Capital Management
+- HR
+- Field Operations
+- Expense Management
+- Workforce Management
+- Fintech
+apis:
+- name: Miter REST API
+  description: 'Miter exposes a REST API used to build custom integrations between the Miter HCM
+    platform and construction ERPs, accounting, and workforce systems — syncing projects, cost codes,
+    accounts, employees, time, and pay. The API is gated behind authentication (api.miter.com returns
+    401 without credentials); Miter does not publish a public developer portal or OpenAPI definition,
+    directing partners to build against the REST API via their account team.'
+  humanURL: https://www.miter.com/integrations/
+  baseURL: https://api.miter.com/
+  tags:
+  - Payroll
+  - HR
+  - Construction
+  - Integration
+  properties: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: TrustCenter
+  url: security/miter-trust-center.yml
+- type: DomainSecurity
+  url: security/miter-domain-security.yml
 - type: Website
   url: https://www.miter.com/
+- type: Support
+  url: https://support.miter.com/
+- type: StatusPage
+  url: https://status.miter.com/
+- type: Lifecycle
+  url: lifecycle/miter-lifecycle.yml
+- type: LLMsTxt
+  url: llms/miter-llms.txt
+- type: Compliance
+  url: https://www.miter.com/compliance/
+- type: PrivacyPolicy
+  url: https://www.miter.com/privacy
+- type: TermsOfService
+  url: https://www.miter.com/terms-of-service
+- type: Login
+  url: https://dashboard.miter.com/login
+- type: Blog
+  url: https://www.miter.com/resources/
+x-enrichment:
+  date: '2026-07-20'
+  status: enriched
+  artifacts_added: 4
+  pass: local-v1
