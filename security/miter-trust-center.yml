@@ -1,0 +1,13 @@
+generated: '2026-07-20'
+method: searched
+probe: true
+source: https://www.miter.com/compliance/
+url: https://www.miter.com/compliance/
+certifications:
+- SOC 2 Type II
+evidence:
+- source: https://www.miter.com/compliance/
+  keywords:
+  - soc 2
+  - soc2
+  - trust center

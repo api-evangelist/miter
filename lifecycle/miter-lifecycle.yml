@@ -1,0 +1,28 @@
+generated: '2026-07-20'
+method: searched
+source: https://status.miter.com/
+summary: >-
+  Miter runs a single-page Atlassian Statuspage for its platform. No public
+  developer portal, versioning policy, deprecation policy, or SLA document is
+  published — the REST API is gated behind partner authentication (api.miter.com
+  returns 401), so version and deprecation posture are not externally observable.
+versioning:
+  scheme: unknown
+  current: null
+  docs: null
+  note: API is auth-gated; no public versioning policy published.
+deprecation:
+  policy_url: null
+  sunset_header: unknown
+sla:
+  url: null
+  uptime_target: null
+status_page:
+  url: https://status.miter.com/
+  provider: Atlassian Statuspage
+  components:
+  - Miter Platform
+  feeds:
+    atom: https://status.miter.com/history.atom
+    rss: https://status.miter.com/history.rss
+deprecated_operations: []

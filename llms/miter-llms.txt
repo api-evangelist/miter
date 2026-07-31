@@ -1,0 +1,26 @@
+# Miter
+
+> Miter is a Human Capital Management (HCM) platform purpose-built for construction contractors, unifying payroll, HR, benefits, field operations, and expense management. Its construction payroll automates prevailing-wage, certified-payroll, and union compliance, multi-state taxes, and real-time fully-burdened job costing. Miter integrates with construction ERPs and accounting systems and exposes a gated REST API for custom integrations. Backed by Bessemer Venture Partners.
+
+## Products
+- [Human Capital Management](https://www.miter.com/human-capital-management/): Payroll, HRIS, benefits, recruiting, performance, and learning
+- [Construction Payroll](https://www.miter.com/human-capital-management/payroll/): Certified payroll, prevailing wage, union, and multi-state tax compliance
+- [Field Operations](https://www.miter.com/): Time tracking, scheduling, daily reports, production tracking, safety
+- [Expense Management](https://www.miter.com/): Reimbursements, per diems, corporate cards
+
+## API
+- [Miter REST API](https://www.miter.com/integrations/): REST API for building custom integrations between Miter and construction ERP/accounting/workforce systems. Auth-gated (api.miter.com); no public developer portal or OpenAPI definition is published.
+- [Integrations](https://www.miter.com/integrations/): Off-the-shelf connectors for Sage Intacct, NetSuite, Acumatica, QuickBooks, Procore, Viewpoint, BuildOps, ServiceTitan, HCSS, BambooHR, Checkr, Indeed, LinkedIn, and more
+
+## Operations & Trust
+- [Status](https://status.miter.com/): Atlassian Statuspage for the Miter Platform
+- [Trust Center](https://trust.miter.com/): Security and compliance posture
+- [Compliance](https://www.miter.com/compliance/): SOC 2 Type II
+- [Support](https://support.miter.com/): Help center
+
+## Company
+- [Website](https://www.miter.com/)
+- [Resources](https://www.miter.com/resources/): Guides, articles, and insights
+- [Dashboard / Login](https://dashboard.miter.com/login)
+- [Privacy Policy](https://www.miter.com/privacy)
+- [Terms of Service](https://www.miter.com/terms-of-service)
