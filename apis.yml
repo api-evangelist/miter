@@ -9,6 +9,17 @@ description: 'Miter is a Human Capital Management (HCM) platform purpose-built f
   per diems, and corporate cards. Miter connects to construction ERPs and accounting systems (Sage
   Intacct, NetSuite, Acumatica, QuickBooks, Procore, Viewpoint, and more) through off-the-shelf
   integrations or a custom REST API. Backed by Bessemer Venture Partners.'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
