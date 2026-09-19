@@ -48,7 +48,7 @@ tags:
 - Construction
 - Payroll
 - HCM
-- HR
+- Human Resources
 - Field Operations
 - Expense Management
 - Workforce Management
@@ -74,6 +74,11 @@ apis:
   humanURL: https://www.miter.com/integrations/
   baseURL: https://api.miter.com/
   tags:
+  - Payroll
+  - Human Resources
+  - Construction
+  - Integration
+  tags_raw:
   - Payroll
   - HR
   - Construction
