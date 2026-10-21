@@ -1,29 +1,16 @@
 generated: '2026-10-14'
 method: searched
 checked:
-- procore/integrations/procore-integration-edges.yml
 - servicetitan/integrations/servicetitan-integration-edges.yml
+- https://a16z.com/portfolio/
+- https://www.battery.com/company/
+- https://www.battery.com/wp-admin/admin-ajax.php
+- https://www.indexventures.com/companies/
+- https://www.sequoiacap.com/our-companies/
+- https://www.sequoiacap.com/sitemap.xml
 source:
-- procore/integrations/procore-integration-edges.yml
 - servicetitan/integrations/servicetitan-integration-edges.yml
 edges:
-- partner_name: Procore (own)
-  partner: procore
-  partner_match: mirror
-  mirror_match: domain
-  type: marketplace
-  relationship: platform-app
-  direction: third-party
-  channel: partner-built
-  marketplace: own
-  evidence: https://marketplace.procore.com/apps/miter
-  mirror_of: procore/integrations/procore-integration-edges.yml
-  apps:
-  - Miter
-  listing_count: 1
-  detected: '2026-10-14'
-  detected_by: mirror-platform-listings.py
-  category: Field Productivity; Risk Management; Timekeeping
 - partner_name: ServiceTitan (own)
   partner: servicetitan
   partner_match: mirror
@@ -41,3 +28,30 @@ edges:
   detected: '2026-10-14'
   detected_by: mirror-platform-listings.py
   category: HR & Payroll
+- partner_name: Battery Ventures
+  partner: battery-ventures
+  partner_match: register
+  type: register
+  channel: standard-directory
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.battery.com/company/miter/
+  category: vc portfolio participation
+  contract_reference:
+    register: Battery Ventures companies (battery.com/company/, the page's own admin-ajax list + company pages)
+    standard: null
+    spec_file: null
+    role: vc-portfolio-company
+    registered_name: Miter
+    register_id: https://www.battery.com/company/miter/
+    register_country: San Francisco, California
+    register_website: https://www.miter.com/?utm_source=google&utm_medium=cpc&utm_campaign=Omni%20Lab%20|%20Google%20Ads%20|%20Brand%20-%20USA&utm_content=Miter&utm_ad=759089743385&utm_term=miter&matchtype=e&device=c&GeoLoc=1018127&placement=&network=g&campaign_id=22691555206&adset_id=181026708373&ad_id=759089743385&hstk_creative=759089743385&hstk_campaign=22691555206&hstk_network=googleAds&utm_term=miter&utm_campaign=Omni+Lab+%7C+Google+Ads+%7C+Brand+-+USA&utm_source=google&utm_medium=cpc&hsa_acc=3451717442&hsa_cam=22691555206&hsa_grp=181026708373&hsa_ad=759089743385&hsa_src=g&hsa_tgt=kwd-101987215&hsa_kw=miter&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gad_source=1&gad_campaignid=22691555206&gbraid=0AAAAABTbJxaiTiDjPkdSq_BsajFtG6zpl&gclid=CjwKCAjw687NBhB4EiwAQ645dpoeoYNtLX1y-bJpMS1vlr9zRcgBicUB9LP7J1C4r4M72TG545141BoC2SsQAvD_BwE
+    matched_domain: miter.com
+    matched_by: domain
+    signal_note: 'participation only: the venture firm''s own published portfolio lists the company (investment);
+      an ownership and participation record, not conformance or certification'
+    detected_by: sweep-vc-portfolios.py
+    detected: '2026-10-21'
+    status: Active
+  detected_by: sweep-vc-portfolios.py
+  first_seen: '2026-10-21'
